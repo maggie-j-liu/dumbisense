@@ -3,8 +3,11 @@
   "displayName": "dumbisense",
   "description": "Underlines all of your code with red squiggles and other dumb intellisense things.",
   "version": "0.0.1",
-  "publisher": "maggie",
-  "repository": "https://github.com/maggie-j-liu/dumbisense",
+  "publisher": "mliu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maggie-j-liu/dumbisense.git"
+  },
   "engines": {
     "vscode": "^1.69.1"
   },
@@ -14,6 +17,7 @@
   "activationEvents": [
     "*"
   ],
+  "icon": "icon.png",
   "main": "./out/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
