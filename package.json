@@ -2,7 +2,7 @@
   "name": "dumbisense",
   "displayName": "Dumbisense",
   "description": "Underlines all of your code with red squiggles and other dumb intellisense things.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "mliu",
   "repository": {
     "type": "git",
