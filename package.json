@@ -1,0 +1,35 @@
+{
+  "name": "dumbisense",
+  "displayName": "dumbisense",
+  "description": "Underlines all of your code with red squiggles and other dumb intellisense things.",
+  "version": "0.0.1",
+  "publisher": "maggie",
+  "repository": "https://github.com/maggie-j-liu/dumbisense",
+  "engines": {
+    "vscode": "^1.69.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint . --ext .ts,.tsx",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "@types/vscode": "^1.69.1",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.5"
+  }
+}
